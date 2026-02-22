@@ -11,10 +11,41 @@ st.set_page_config(page_title="Tarmeez Portfolio Simulator", layout="wide", init
 
 st.markdown("""
     <style>
-    .main { background-color: #0e1117; }
-    [data-testid="stMetricValue"] { color: #f9a602 !important; font-size: 28px; }
-    [data-testid="stMetricDelta"] { font-size: 16px; }
-    .stHeader { color: #f9a602; }
+    .main { 
+        background-color: #0e1117; 
+    }
+    
+    [data-testid="stMetricValue"] { 
+        color: #f9a602 !important; 
+        font-size: 28px; 
+    }
+    
+    [data-testid="stMetricDelta"] { 
+        font-size: 16px; 
+    }
+    
+    .stHeader { 
+        color: #f9a602; 
+    }
+
+    @media (prefers-color-scheme: light) {
+        [data-testid="stSidebar"] [data-testid="stImage"] img {
+            filter: brightness(0);
+        }
+        .main {
+            background-color: #ffffff;
+        }
+    }
+
+    section[data-testid="stSidebar"] {
+        background-color: #161b22;
+    }
+    
+    @media (prefers-color-scheme: light) {
+        section[data-testid="stSidebar"] {
+            background-color: #f0f2f6;
+        }
+    }
     </style>
     """, unsafe_allow_html=True)
 
