@@ -54,7 +54,7 @@ selected_stocks = st.sidebar.multiselect(
 )
 
 #calculating start date based on user selection for time period
-end_date = datetime.now() # We set a fixed end date for consistency in backtesting
+end_date = datetime.now()
 if time_period == "سنة واحدة":
     start_date = end_date - timedelta(days=365)
 elif time_period == "سنتين":

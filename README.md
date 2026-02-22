@@ -18,7 +18,7 @@ Following a professional ETL (Extract, Transform, Load) pipeline:
 * **Recommendation**: Investors should focus on high-growth sectors like Technology (Solutions) while maintaining a core position in stable giants like Aramco to balance volatility.
 
 ## Live Dashboard Link
-👉 [** **]
+👉 [**https://saudi-portfolio-simulator-fahad.streamlit.app/**]
 
 ## Assumptions & Limitations
 * The model assumes an **Equal Weighting** strategy for simplicity.
